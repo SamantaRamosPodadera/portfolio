@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Samanta Ramos - QA Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Samanta Ramos</h1>
+            <p>QA Analyst</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/samantaramospodadera/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SamantaRamosPodadera" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" onclick="showContactInfo()"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#aboutMe"><i class="fas fa-user"></i> About Me</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#languages"><i class="fas fa-language"></i> Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="content-columns">
+            <div class="column" id="column-1">
+                <section id="aboutMe">
+                    <h2><i class="fas fa-user"></i> About Me</h2>
+                    <p id="about-text">
+                        Highly communicative and adept problem-solving individual with a background in sales and
+                        training in both manual and automation QA. Seeking new challenges to grow my skills and
+                        expertise in software testing.
+                    </p>
+                </section>
+
+                <section id="projects">
+                    <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+                    <div class="project">
+                        <h3>QA and Web Development</h3>
+                        <p>
+                            Development and QA for CV project using HTML5 and CSS3, applying the agile SCRUM methodology
+                            and BDD testing. Managed with Jira and hosted on GitHub, including test design and execution
+                            with Zephyr Scale, and code analysis with SonarQube.
+                        </p>
+                        <p>
+                            <strong>Technologies:</strong> HTML5, CSS3, GIT, GITHUB, JIRA, ZEPHYR, SONARQUBE, GHERKIN, BDD, SCRUM
+                        </p>
+                    </div>
+                </section>
+
+                <section id="skills">
+                    <h2><i class="fas fa-cogs"></i> Skills</h2>
+                    <ul>
+                        <li><i class="fas fa-bug"></i> Manual Testing</li>
+                        <li><i class="fab fa-jira"></i> Bug Tracking with JIRA</li>
+                        <li><i class="fas fa-sync-alt"></i> Agile Methodologies (Scrum, Kanban)</li>
+                        <li><i class="fas fa-code"></i> Basic Knowledge in Selenium, Python, JavaScript, Zephyr, SonarQube, Gherkin</li>
+                        <li><i class="fas fa-comments"></i> Communication and Bug Reporting</li>
+                    </ul>
+                </section>
+
+                <section id="education">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <ul>
+                        <li>Certified in Web and API QA - 2024-BOOTCAMPQA 110 Hours</li>
+                        <li>Certified in Python and Database - 2023-AEPI 100 Hours</li>
+                        <li>Commerce & Marketing VET - 2009-2011 IES Miguel Romero Esteo</li>
+                    </ul>
+                </section>
+
+                <section id="languages">
+                    <h2><i class="fas fa-language"></i> Languages</h2>
+                    <ul>
+                        <li><i class="fas fa-globe"></i> Spanish (Native)</li>
+                        <li><i class="fas fa-globe"></i> English (B1)</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Samanta Ramos. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="contact-info" class="contact-popup">
+        <p><strong>Email:</strong> samantaramospodadera@gmail.com</p>
+        <p><strong>Phone:</strong> +34 644 614 761</p>
+        <button onclick="closeContactInfo()">Close</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

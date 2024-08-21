@@ -1,0 +1,144 @@
+/* Estilos del cuerpo y fondo */
+body {
+    background-color: #ffffff; /* Fondo blanco limpio */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos del encabezado */
+.header-content {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #2c3e50; /* Fondo azul oscuro profesional */
+    color: #ecf0f1; /* Texto blanco suave */
+    border-bottom: 5px solid #2980b9; /* Resaltado con borde azul */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto de profundidad */
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 600;
+    color: #ecf0f1;
+}
+
+.header-content p {
+    font-size: 1.3em;
+    color: #bdc3c7; /* Texto en tono gris claro */
+}
+
+/* Estilos de los enlaces sociales */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #ecf0f1; /* Colores consistentes en los enlaces sociales */
+    font-size: 1.8em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #3498db; /* Color de resaltado azul */
+}
+
+/* Estilos de la navegación */
+.main-nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #2c3e50; /* Color del texto azul oscuro */
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.main-nav ul li a:hover {
+    color: #2980b9; /* Color de resaltado azul */
+    border-bottom: 2px solid #2980b9; /* Añadir borde inferior al pasar el ratón */
+}
+
+/* Estilos para las columnas de contenido */
+.content-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.column {
+    width: 48%;
+}
+
+.column h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Azul oscuro profesional */
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #7f8c8d; /* Gris suave para texto */
+}
+
+/* Estilos para el cuadro emergente de contacto */
+.contact-popup {
+    display: none;
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #ecf0f1; /* Fondo gris claro */
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    border-radius: 8px;
+    text-align: center;
+    color: #2c3e50; /* Texto en azul oscuro */
+}
+
+.contact-popup p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.contact-popup button {
+    background-color: #2980b9; /* Azul profesional para el botón */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.contact-popup button:hover {
+    background-color: #1e5f7a; /* Resaltado más oscuro al pasar el ratón */
+}
