@@ -38,14 +38,20 @@ Technologies: Postman, JIRA, API Testing
 
 🎓 Certifications
 Certified in Web and API QA - 2024-BOOTCAMPQA, 110 Hours
+
 Certified in Python and Database - 2023-AEPI, 100 Hours
+
 Commerce & Marketing VET - 2009-2011 IES Miguel Romero Esteo
+
 📫 Contact
 Feel free to reach out to me via:
 
 Email: samantaramospodadera@gmail.com
+
 Phone: +34 644 614 761
+
 LinkedIn: LinkedIn Profile
+
 GitHub: GitHub Profile
 
 Thank you for visiting my portfolio!
