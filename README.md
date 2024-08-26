@@ -1,5 +1,6 @@
 # Portfolio
 Samanta Ramos - QA Analyst Portfolio
+
 👋 Introduction
 Welcome to my portfolio! I'm Samanta Ramos, a dedicated QA Analyst with extensive experience in both manual and automation testing. My background combines skills in problem-solving, communication, and a deep understanding of quality assurance practices. I am passionate about leveraging Agile methodologies and modern testing tools to drive continuous improvements in software quality.
 
@@ -46,8 +47,7 @@ Email: samantaramospodadera@gmail.com
 Phone: +34 644 614 761
 LinkedIn: LinkedIn Profile
 GitHub: GitHub Profile
+
 Thank you for visiting my portfolio!
 
-📄 Resume
-For a detailed overview of my experience and qualifications, you can download my resume from
-https://samantaramospodadera.github.io/portfolio/
+
