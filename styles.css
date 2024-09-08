@@ -142,3 +142,42 @@ body {
 .contact-popup button:hover {
     background-color: #1e5f7a; /* Resaltado más oscuro al pasar el ratón */
 }
+
+/* Estilos para el contenedor de contenido */
+.content-columns {
+    display: flex;
+    flex-direction: column; /* Cambiar a disposición en columna para centrar verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 30px;
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 0 20px; /* Espaciado lateral */
+    max-width: 1200px; /* Ancho máximo para el contenedor */
+}
+
+/* Ajustar ancho de las columnas */
+.column {
+    width: 100%; /* Ajustar al 100% para asegurar que ocupe todo el espacio */
+}
+
+/* Estilos para centrar y expandir la sección About Me */
+#aboutMe {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 800px; /* Limita el ancho máximo para mejor legibilidad */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilo del texto dentro de About Me */
+#aboutMe h2 {
+    color: #2c3e50; /* Color del texto */
+}
+
+#about-text {
+    color: #7f8c8d; /* Color gris suave */
+    font-size: 1.2em; /* Tamaño de letra para legibilidad */
+}
+
