@@ -181,3 +181,24 @@ body {
     font-size: 1.2em; /* Tamaño de letra para legibilidad */
 }
 
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px; /* Ajusta la posición vertical */
+    right: 20px; /* Ajusta la posición horizontal */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del icono */
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px; /* Tamaño del icono */
+    display: none; /* Ocultar por defecto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+

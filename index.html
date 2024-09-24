@@ -7,6 +7,30 @@
     <title>Portafolio de Samanta Ramos - QA Tester</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilo para la flecha de regreso */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+
+        .scroll-to-top:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,9 +65,9 @@
                         Soy una persona versátil, especializada en control de calidad (QA), tanto manual como
                         automatizado.
                         A lo largo de mi trayectoria, he desarrollado un enfoque analítico y orientado a resultados,
-                        o que me permite identificar y resolver eficientemente los problemas en el software.
+                        lo que me permite identificar y resolver eficientemente los problemas en el software.
                         Estoy en búsqueda de nuevos retos que me permitan ampliar mis habilidades y profundizar mi
-                        conocimiento en el área
+                        conocimiento en el área.
                     </p>
                 </section>
 
@@ -91,41 +115,42 @@
                         </p>
                         <p><strong>Postman, JIRA, API Testing</strong></p>
                     </div>
+                </section>
 
+                <section id="skills">
+                    <h2><i class="fas fa-cogs"></i> Habilidades</h2>
+                    <ul>
+                        <li><i class="fas fa-bug"></i> Pruebas Manuales: Diseño y ejecución de pruebas funcionales
+                            para web y móvil. Documentación y reporte de resultados de pruebas y errores.</li>
+                        <li><i class="fas fa-robot"></i> Automatización de Pruebas: Cypress, Playwright y Cucumber.
+                        </li>
+                        <li><i class="fas fa-code-branch"></i> Pruebas de API: Postman.</li>
+                        <li><i class="fab fa-jira"></i> Gestión de Proyectos: JIRA</li>
+                        <li><i class="fas fa-calendar-alt"></i> Herramientas de Gestión de Pruebas: Zephyr Scale,
+                            Testiny</li>
+                        <li><i class="fas fa-sync-alt"></i> Metodologías Ágiles: Scrum, Kanban, BDD</li>
+                        <li><i class="fas fa-tools"></i> CI/CD: Experiencia en la integración de pruebas en GitHub
+                            Actions para integración continua.</li>
+                        <li><i class="fas fa-code"></i> Lenguajes de Programación: JavaScript; Python.</li>
+                    </ul>
+                </section>
 
-                    <section id="skills">
-                        <h2><i class="fas fa-cogs"></i> Habilidades</h2>
-                        <ul>
-                            <li><i class="fas fa-bug"></i> Manual Testing: Functional Test design and execution for web
-                                and mobile. Test results and bugs documentation and report.</li>
-                            <li><i class="fas fa-robot"></i> Test Automation: Cypress, Playwright, and Cucumber.</li>
-                            <li><i class="fas fa-code-branch"></i> API Testing: Postman.</li>
-                            <li><i class="fab fa-jira"></i> Project Management: JIRA</li>
-                            <li><i class="fas fa-calendar-alt"></i> Test Management Tools: Zephyr Scale, Testiny</li>
-                            <li><i class="fas fa-sync-alt"></i> Agile Methodologies: Scrum, Kanban, BDD</li>
-                            <li><i class="fas fa-tools"></i> CI/CD: Experience with integrating tests into GitHub
-                                Actions for continuous integration.</li>
-                            <li><i class="fas fa-code"></i> Programming Languages: JavaScript; Python.</li>
+                <section id="education">
+                    <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+                    <ul>
+                        <li>Certificado en Web and API QA - 2024-BOOTCAMPQA</li>
+                        <li>Certificado en Python and Database - 2023-AEPI</li>
+                        <li>Comercio & Marketing FPI - 2009-2011 IES Miguel Romero Esteo</li>
+                    </ul>
+                </section>
 
-                        </ul>
-                    </section>
-
-                    <section id="education">
-                        <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
-                        <ul>
-                            <li>Certificado en Web and API QA - 2024-BOOTCAMPQA</li>
-                            <li>Certificado en Python and Database - 2023-AEPI</li>
-                            <li>Comercio & Marketing FPI - 2009-2011 IES Miguel Romero Esteo</li>
-                        </ul>
-                    </section>
-
-                    <section id="languages">
-                        <h2><i class="fas fa-language"></i> Idiomas</h2>
-                        <ul>
-                            <li><i class="fas fa-globe"></i> Español (Native)</li>
-                            <li><i class="fas fa-globe"></i> Ingles (B1)</li>
-                        </ul>
-                    </section>
+                <section id="languages">
+                    <h2><i class="fas fa-language"></i> Idiomas</h2>
+                    <ul>
+                        <li><i class="fas fa-globe"></i> Español (Nativo)</li>
+                        <li><i class="fas fa-globe"></i> Inglés (B1)</li>
+                    </ul>
+                </section>
             </div>
         </div>
     </main>
@@ -142,7 +167,9 @@
         <button onclick="closeContactInfo()">Close</button>
     </div>
 
-    <script src="scripts.js"></script>
-</body>
+    <!-- Botón de flecha para volver al inicio -->
+    <a href="#" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 
-</html>
+    <script src="scripts.js"></script
